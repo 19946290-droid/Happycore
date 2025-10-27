@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happycore - Tu app de salud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Happycore</h1>
+        <p>Tu app de salud y bienestar</p>
+    </header>
+
+    <main>
+        <!-- Sección para calcular IMC -->
+        <section id="imc-section">
+            <h2>Calcula tu IMC</h2>
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" placeholder="Ej: 70">
+            
+            <label for="altura">Altura (m):</label>
+            <input type="number" step="0.01" id="altura" placeholder="Ej: 1.75">
+            
+            <button onclick="calcularIMC()">Calcular IMC</button>
+            <p id="resultado"></p>
+        </section>
+
+        <!-- Sección de tips de salud -->
+        <section id="tips-section">
+            <h2>Tips de salud</h2>
+            <ul>
+                <li>Come frutas y verduras diariamente.</li>
+                <li>Bebe al menos 2 litros de agua al día.</li>
+                <li>Haz ejercicio al menos 30 minutos diarios.</li>
+                <li>Duerme entre 7 y 9 horas cada noche.</li>
+                <li>Evita el exceso de azúcar y comida procesada.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Happycore © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
